@@ -14,4 +14,4 @@ Do you have any new ideas, wishes or bugs? Contact @lAmeR^#7173 at Discord.
 
 ## DONATION ♥
 
-Please consider a donation for my work: [gor:qqkqkzjvr7zwxxmjxjkmxxdwju9kjs6e9u82uh59z07vgaks6gg62v8707g73](https://explorer.ixbase.info/addresses/gor:gor:qq8y6lplj8p00kcuksx6uyuc572vculsfhvyqpr4l9dhgmhrgxv0qcelplwcj)
+Please consider a donation for my work: [gor:qqkqkzjvr7zwxxmjxjkmxxdwju9kjs6e9u82uh59z07vgaks6gg62v8707g73](https://explorer.ixbase.info/addresses/gor:qq8y6lplj8p00kcuksx6uyuc572vculsfhvyqpr4l9dhgmhrgxv0qcelplwcj)
