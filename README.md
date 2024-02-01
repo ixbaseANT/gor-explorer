@@ -10,7 +10,7 @@ For developing this you need Node.JS and just npm install.
 
 ## Any ideas?
 
-Do you have any new ideas, wishes or bugs? Contact @lAmeR^#7173 at Discord.
+Do you have any new ideas, wishes or bugs? Contact [https://t.me/gorbaniov](https://t.me/gorbaniov)
 
 ## DONATION ♥
 
