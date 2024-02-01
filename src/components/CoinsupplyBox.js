@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import moment from 'moment';
 import { useContext, useEffect, useState } from "react";
 import { numberWithCommas } from "../helper";
-import { getCoinSupply, getHalving } from '../kaspa-api-client';
+import { getCoinSupply, getHalving } from '../gor-api-client';
 import PriceContext from "./PriceContext";
 
 

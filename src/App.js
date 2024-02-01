@@ -21,7 +21,7 @@ import PriceContext from './components/PriceContext';
 import TransactionInfo from './components/TransactionInfo';
 import TxPage from './components/TxPage';
 import Dashboard from './Dashboard';
-import { getBlock } from './kaspa-api-client';
+import { getBlock } from './gor-api-client';
 // import 'moment/min/locales';
 
 // var locale = window.navigator.userLanguage || window.navigator.language || "en";

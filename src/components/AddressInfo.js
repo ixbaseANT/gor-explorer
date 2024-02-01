@@ -6,7 +6,7 @@ import { useParams } from "react-router";
 import { Link, useSearchParams } from "react-router-dom";
 import Toggle from "react-toggle";
 import usePrevious, { floatToStr, numberWithCommas } from "../helper";
-import { getAddressBalance, getAddressTxCount, getAddressUtxos, getBlock, getBlockdagInfo, getTransactions, getTransactionsFromAddress } from '../kaspa-api-client.js';
+import { getAddressBalance, getAddressTxCount, getAddressUtxos, getBlock, getBlockdagInfo, getTransactions, getTransactionsFromAddress } from '../gor-api-client.js';
 import { FaQrcode } from "react-icons/fa"
 import BlueScoreContext from "./BlueScoreContext";
 import CopyButton from "./CopyButton.js";

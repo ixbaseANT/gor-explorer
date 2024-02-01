@@ -11,7 +11,7 @@ import CoinsupplyBox from './components/CoinsupplyBox';
 import KaspadInfoBox from './components/KaspadInfoBox';
 import MarketDataBox from './components/MarketDataBox';
 import TxOverview from './components/TxOverview';
-import { getBlock } from './kaspa-api-client';
+import { getBlock } from './gor-api-client';
 
 
 

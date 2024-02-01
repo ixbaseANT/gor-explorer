@@ -2,7 +2,7 @@ import { useContext, useEffect, useState } from "react";
 import { HiCurrencyDollar } from 'react-icons/hi';
 import { IoMdTrendingDown, IoMdTrendingUp } from 'react-icons/io';
 import { numberWithCommas } from "../helper";
-import { getCoinSupply } from '../kaspa-api-client';
+import { getCoinSupply } from '../gor-api-client';
 import PriceContext from "./PriceContext";
 
 
