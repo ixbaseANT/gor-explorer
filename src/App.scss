@@ -188,16 +188,12 @@ body {
   width: 0rem;
   height: 0rem;
   transform: rotateX(90);
-//  animation-name: rotate-icon;
-//  animation-duration: 3s;
-//  animation-iteration-count: infinite;
-//  animation-direction: alternate;
 }
 
 @include media-breakpoint-up(md) {
   .big-kaspa-icon {
     width: 10rem;
-    height: 10rem;
+    height: 12rem;
   }
 }
 
