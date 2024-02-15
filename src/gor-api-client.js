@@ -1,4 +1,4 @@
-const API_BASE = "https://api.ixbase.info/"
+const API_BASE = "http://192.168.1.103:8000/"
 
 export async function getBlock(hash) {
     const res = await fetch(`${API_BASE}blocks/${hash}`, { headers: { 'Access-Control-Allow-Origin': '*' } })

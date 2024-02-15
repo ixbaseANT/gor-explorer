@@ -2,7 +2,7 @@ let queryBlock = null
 let blocksCache = []
 
 function updateQueryBlockFromBlockDag() {
-    fetch('https://api.ixbase.info/info/blockdag')
+    fetch('http://192.168.1.103:8000/info/blockdag')
         .then((response) => response.json())
         .then(d => {
             queryBlock = d.virtualParentHashes[0]
@@ -23,7 +23,7 @@ export function getNewBlocks(func, trimTo) {
         updateQueryBlockFromBlockDag()
     }
     if (queryBlock) {
-        fetch(`https://api.ixbase.info/blocks?lowHash=${queryBlock}&includeBlocks=true`)
+        fetch(`http://192.168.1.103:8000/blocks?lowHash=${queryBlock}&includeBlocks=true`)
             .then((response) => response.json())
             .then(d => {
                 const blocks = d.blocks.map((x) => {

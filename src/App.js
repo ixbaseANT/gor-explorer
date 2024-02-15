@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-const socket = io("wss://api.ixbase.info", {
+const socket = io("ws://192.168.1.103:8001", {
   path: '/ws/socket.io'
 });
 
@@ -89,7 +89,7 @@ function App() {
   }
 
   const updatePrice = () => {
-    fetch(`https://api.ixbase.info/info/market-data`, {
+    fetch(`http://192.168.1.103:8000/info/market-data`, {
       headers: { "Cache-Control": "no-cache" }
     })
       .then(response => response.json())
@@ -217,7 +217,7 @@ function App() {
                       <Link className="blockinfo-link ms-3" to="/addresses/gor:qqkqkzjvr7zwxxmjxjkmxxdwju9kjs6e9u82uh59z07vgaks6gg62v8707g73"><BiDonateHeart size="1.3rem" /></Link>
                     </OverlayTrigger>
                     <OverlayTrigger placement="right" overlay={<Tooltip id="github">REST-API server</Tooltip>}>
-                      <a className="blockinfo-link ms-3" href="https://api.ixbase.info/" target="_blank"><SiFastapi size="1.3rem" /></a>
+                      <a className="blockinfo-link ms-3" href="http://192.168.1.103:8000/" target="_blank"><SiFastapi size="1.3rem" /></a>
                     </OverlayTrigger>
                   </span>
                   <span className="px-3 build">|</span>
@@ -239,7 +239,7 @@ function App() {
                       <Link className="blockinfo-link ms-2" to="/addresses/gor:qqkqkzjvr7zwxxmjxjkmxxdwju9kjs6e9u82uh59z07vgaks6gg62v8707g73"><BiDonateHeart size="1.1rem" /></Link>
                     </OverlayTrigger>
                     <OverlayTrigger placement="right" overlay={<Tooltip id="github">REST-API server</Tooltip>}>
-                      <a className="blockinfo-link ms-2" href="https://api.ixbase.info/" target="_blank"><SiFastapi size="1.1rem" /></a>
+                      <a className="blockinfo-link ms-2" href="http://192.168.1.103:8000/" target="_blank"><SiFastapi size="1.1rem" /></a>
                     </OverlayTrigger>
                   </span>
                 </Col>
